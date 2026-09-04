@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Create the .gitignore file and add .env to it
+echo ".env" >> .gitignore
+
+# If you have a .env.local file, ignore that too
+echo ".env.local" >> .gitignore
