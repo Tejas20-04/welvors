@@ -1,12 +1,3 @@
 {
-  "rewrites": [
-    {
-      "source": "/api/admin/events/:path*",
-      "destination": "https://welvors.com/api/admin/events/:path*"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
